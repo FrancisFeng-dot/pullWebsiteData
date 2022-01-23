@@ -1,3 +1,3 @@
-# php语言实例，用curlAPI爬一个天气数据的网站
+# php实例，用curlAPI爬一个天气数据的网站
 
 <div><div dir="auto" style="box-sizing: border-box; color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px;">其中netquery()方法是主函数&nbsp; &nbsp;调用nethtml(),将处理后的数据按照格式保存到数据库</div><div dir="auto" style="box-sizing: border-box; color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px;">nethtml()方法返回一个爬取到的数据包（优化后的格式）,其中的curl_get()会创建一个curl会话，通过处理请求的头部及其他参数，将指定网址的指定内容爬取下来</div></div><div></div>
